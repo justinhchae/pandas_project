@@ -8,6 +8,14 @@ This project represents a collection of my most-used Pandas-oriented methods and
 
 A focus of this repository is on categorical data types.
 
+## Environment
+
+* environment.yml
+
+* Python 3.8
+
+* PyCharm
+
 ## Code
 
 * do_data.getter
