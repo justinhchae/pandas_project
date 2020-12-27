@@ -22,4 +22,14 @@ A focus of this repository is on categorical data types.
 
 * do_data.writer
 
+* do_mods.modify_categories
+
+* do_mods.modify_columns
+
+* do_mods.modify_dates
+
+## Data
+
+* 
+
 
