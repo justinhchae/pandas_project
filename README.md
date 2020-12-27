@@ -14,7 +14,7 @@ A focus of this repository is on categorical data types.
 
 * Python 3.8
 
-* PyCharm
+* PyCharm on MacOS
 
 ## Code
 
