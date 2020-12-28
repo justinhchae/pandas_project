@@ -2,7 +2,7 @@ from do_data.getter import Reader
 from do_data.writer import Writer
 from do_mods.modify_categories import ModifyCategories
 from do_mods.modify_dates import ModifyDates
-from utils.make_data import MakeData
+from utils.make_source_data import MakeData
 
 reader = Reader()
 writer = Writer()
