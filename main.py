@@ -26,8 +26,8 @@ writer.to_package(df, 'analysis')
 
 ## uncomment below to read df from zipped csv file
 # benefits: common cross-platform data format
-# print('--- From CSV ---')
-# df = reader.to_df('analysis.zip')
+print('--- From CSV ---')
+df = reader.to_df('analysis.zip')
 
 ## uncomment below to read a pickled file
 # benefits: retains pandas categorical meta data
