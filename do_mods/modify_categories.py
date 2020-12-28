@@ -15,6 +15,7 @@ class ModifyCategories():
                       if ordered, provide data from lowest value to highest value
         :return: a Pandas DataFrame with cols as Categorical
         """
+        print('------ Parsing columns as categories')
 
         col_list = list(df.columns)
 
@@ -51,7 +52,7 @@ class ModifyCategories():
                     print('Skipping', key, 'Reason: Not a Column in DF')
                     print()
 
-
+        print(df.dtypes)
 
         return df
 

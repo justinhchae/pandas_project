@@ -19,6 +19,7 @@ class Reader():
               , dtype=None
               , preview=True
               , echo=True
+              , clean=True
               ):
 
         if not isinstance(filename, str):
@@ -50,7 +51,8 @@ class Reader():
                     print(df.head(2))
                     print()
 
-                df = self.modify_columns.parse_cols(df)
+                if clean:
+                    df = self.modify_columns.parse_cols(df)
 
                 return df
 
@@ -73,3 +75,5 @@ class Reader():
                     print()
 
                 return df
+
+

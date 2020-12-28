@@ -14,4 +14,6 @@ class ModifyColumns():
         df.columns = map(str.lower, df.columns)
         df.columns = df.columns.str.replace(' ', '_')
         df.columns = df.columns.str.replace('-', '_')
+
+        print(df.columns)
         return df
