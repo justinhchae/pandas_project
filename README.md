@@ -6,7 +6,7 @@ A series of object-oriented libraries built with PyCharm around the Pandas packa
 
 This project represents a collection of my most-used Pandas-oriented methods and transformations to wrangle and analyze data. 
 
-A focus of this repository is on categorical data types.
+A focus of this repository is on managing categorical data types.
 
 ## Environment
 
