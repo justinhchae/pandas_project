@@ -9,13 +9,14 @@ writer = Writer()
 categorize = ModifyCategories()
 mod_dates = ModifyDates()
 util = MakeData()
-# read source data from a csv
-# print('--- From Source ---')
-# df = reader.to_df('source.csv')
 
-df = util.make_df()
+# make a random dataframe of trash collection data
+print('--- Generated Source ---')
+util.make_df()
 
-# print(df.head())
+# read source data from a zipped csv
+print('--- From Source ---')
+df = reader.to_df('source.zip')
 
 
 # df = categorize.make_categories(df=df,
