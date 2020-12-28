@@ -10,7 +10,7 @@ A focus of this repository is on categorical data types.
 
 ## Environment
 
-* (environment.yml)[https://github.com/justinhchae/categorical/blob/main/environment.yml]: Anaconda (conda)
+* [environment.yml](https://github.com/justinhchae/categorical/blob/main/environment.yml): Anaconda
 
 * Python 3.8
 
