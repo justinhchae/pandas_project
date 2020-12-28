@@ -36,8 +36,8 @@ Retrieved Date, Item Name, Retrieved, Condition, Sector
 
 | Retrieved Date  | Item Name | Retrieved | Condition | Sector |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| 2019-01-01  | Toaster  | True  | Junk  | 1 |
+| pd.Datetime  | String  | Bool  | String | Integer |
 
 * [analysis.zip](https://github.com/justinhchae/categorical/blob/main/data/analysis.zip): A compressed version of source.csv after processing.
 
