@@ -30,6 +30,10 @@ A focus of this repository is on categorical data types.
 
 ## Data
 
+* source.csv: A table of made-up records. Each row is an event where an item was retrieved. 
+
+- Retrieved Date, Item Name, Retrieved, Condition, Sector
+
 * 
 
 
