@@ -91,10 +91,10 @@ df = reader.to_df('analysis.pickle')
 
 ## References
 
-* Pandas Categorical: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Categorical.html
+* Pandas Categorical: <https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Categorical.html>
 
-* Pandas Pickle: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_pickle.html
+* Pandas Pickle: <https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_pickle.html>
 
-* Pandas CSV: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html
+* Pandas CSV: <https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html>
 
-* Pandas Datetime: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.to_datetime.html
+* Pandas Datetime: <https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.to_datetime.html>
