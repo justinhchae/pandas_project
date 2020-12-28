@@ -30,7 +30,7 @@ A focus of this repository is on categorical data types.
 
 ## Usage
 
-```lang-python
+```python
 from do_data.getter import Reader
 from do_data.writer import Writer
 from do_mods.modify_categories import ModifyCategories
