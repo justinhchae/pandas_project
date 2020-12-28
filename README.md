@@ -28,7 +28,7 @@ A focus of this repository is on categorical data types.
 
 * [do_mods.modify_dates](https://github.com/justinhchae/categorical/blob/main/do_mods/modify_dates.py): Function that processes date columns as datetime
 
-## Data
+## Source Data
 
 * [source.csv](https://github.com/justinhchae/categorical/blob/main/data/source.csv): A table of made-up records. Each row is an event where an item was retrieved. 
 
@@ -37,8 +37,14 @@ A focus of this repository is on categorical data types.
 | Example | 2019-01-01, 2019-03-4  | Toaster, Lighter  | True, False  | Junk, Excellent  | 1, 2 |
 | Data Type | String  | String  | String  | String | Integer |
 
+## Processed Data
+
 * [analysis.zip](https://github.com/justinhchae/categorical/blob/main/data/analysis.zip): A compressed version of source.csv after processing.
 
 * [analysis.pickle](https://github.com/justinhchae/categorical/blob/main/data/analysis.pickle): A serialized version of source.csv after processing. 
 
 
+|  | retrieved_date  | item_name | retrieved | condition | sector |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| Example | 2019-01-01, 2019-03-4  | Toaster, Lighter  | True, False  | Junk, Excellent  | 1, 2 |
+| Data Type | pd.Datetime  | Category  | Bool  | Ordered Category | Category |
