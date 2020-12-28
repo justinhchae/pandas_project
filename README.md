@@ -1,4 +1,4 @@
-# categorical
+# pandas_project
 
 A series of object-oriented libraries built with PyCharm around the Pandas package.
 
