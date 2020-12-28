@@ -10,7 +10,7 @@ A focus of this repository is on categorical data types.
 
 ## Environment
 
-* environment.yml
+* (environment.yml)[https://github.com/justinhchae/categorical/blob/main/environment.yml]: Anaconda (conda)
 
 * Python 3.8
 
@@ -30,12 +30,12 @@ A focus of this repository is on categorical data types.
 
 ## Data
 
-* source.csv: A table of made-up records. Each row is an event where an item was retrieved. 
+* [source.csv](https://github.com/justinhchae/categorical/blob/main/data/source.csv): A table of made-up records. Each row is an event where an item was retrieved. 
 
 Retrieved Date, Item Name, Retrieved, Condition, Sector
 
-* analysis.zip: A compressed version of source.csv after processing.
+* [analysis.zip](https://github.com/justinhchae/categorical/blob/main/data/analysis.zip): A compressed version of source.csv after processing.
 
-* analysis.pickle: A serialized version of source.csv after processing. 
+* [analysis.pickle](https://github.com/justinhchae/categorical/blob/main/data/analysis.pickle): A serialized version of source.csv after processing. 
 
 
