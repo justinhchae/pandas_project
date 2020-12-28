@@ -8,11 +8,26 @@ class Writer():
         self.path = os.environ['PWD'] + os.sep + self.folder + os.sep
 
     def to_package(self, df, filename, compression=True, echo=True):
+        """
+        A helper function that writes both zipped csv and pickled files
+        :param df: a pandas dataframe
+        :param filename: a string like 'mydata'
+        :param compression: default to true, write as zipped
+        :param echo: default to true, print status
+        :return: None, writes data to file
+        """
         print('Packaging Writer')
         self.to_csv(df, filename, compression, echo)
         self.to_pickle(df, filename, echo)
 
     def to_csv(self, df, filename='file.csv', compression=True, echo=True):
+        """
+        :param df: a pandas dataframe
+        :param filename: a string like file.csv
+        :param compression: default to true, writes csv as a zipped csv
+        :param echo: default to true (print statements and preview head)
+        :return: None, writes a csv file
+        """
         csv = '.csv'
         zipped = '.zip'
 
@@ -49,6 +64,12 @@ class Writer():
                 print()
 
     def to_pickle(self, df, filename='file.pickle', echo=True):
+        """
+        :param df: a pandas dataframe
+        :param filename: a string like file.pickle
+        :param echo: default to true (print statements and preview head)
+        :return: None, writes a pickled file
+        """
         pickle = '.pickle'
 
         self.filename = filename
