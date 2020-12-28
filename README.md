@@ -34,10 +34,10 @@ A focus of this repository is on categorical data types.
 
 Retrieved Date, Item Name, Retrieved, Condition, Sector
 
-| Retrieved Date  | Item Name | Retrieved | Condition | Sector |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
-| Example: 2019-01-01, 2019-03-4  | Toaster, Lighter  | True, False  | Junk, Excellent  | 1, 2 |
-| pd.Datetime  | String  | Bool  | String | Integer |
+|  | Retrieved Date  | Item Name | Retrieved | Condition | Sector |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| Example | 2019-01-01, 2019-03-4  | Toaster, Lighter  | True, False  | Junk, Excellent  | 1, 2 |
+| Data Type | pd.Datetime  | String  | Bool  | String | Integer |
 
 * [analysis.zip](https://github.com/justinhchae/categorical/blob/main/data/analysis.zip): A compressed version of source.csv after processing.
 
