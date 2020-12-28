@@ -32,12 +32,10 @@ A focus of this repository is on categorical data types.
 
 * [source.csv](https://github.com/justinhchae/categorical/blob/main/data/source.csv): A table of made-up records. Each row is an event where an item was retrieved. 
 
-Retrieved Date, Item Name, Retrieved, Condition, Sector
-
 |  | Retrieved Date  | Item Name | Retrieved | Condition | Sector |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Example | 2019-01-01, 2019-03-4  | Toaster, Lighter  | True, False  | Junk, Excellent  | 1, 2 |
-| Data Type | pd.Datetime  | String  | Bool  | String | Integer |
+| Data Type | String  | String  | String  | String | Integer |
 
 * [analysis.zip](https://github.com/justinhchae/categorical/blob/main/data/analysis.zip): A compressed version of source.csv after processing.
 
