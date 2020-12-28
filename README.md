@@ -18,15 +18,15 @@ A focus of this repository is on categorical data types.
 
 ## Code
 
-* do_data.getter: Wrapper function that reads table data (as csv or zipped csv) to Pandas DataFrame
+* (do_data.getter)[https://github.com/justinhchae/categorical/blob/main/do_data/getter.py]: Wrapper function that reads table data (as csv or zipped csv) to Pandas DataFrame
 
-* do_data.writer: Wrapper function that writes DataFrame to csv, pickle, and compressed csv (zip) files
+* (do_data.writer)[https://github.com/justinhchae/categorical/blob/main/do_data/writer.py]: Wrapper function that writes DataFrame to csv, pickle, and compressed csv (zip) files
 
-* do_mods.modify_categories: Wrapper function that changes DataFrame columns to categorical
+* (do_mods.modify_categories)[https://github.com/justinhchae/categorical/blob/main/do_mods/modify_categories.py]: Wrapper function that changes DataFrame columns to categorical
 
-* do_mods.modify_columns: Function that changes column values to lower case with no spaces
+* (do_mods.modify_columns)[https://github.com/justinhchae/categorical/blob/main/do_mods/modify_columns.py]: Function that changes column values to lower case with no spaces
 
-* do_mods.modify_dates: Function that processes date columns as datetime
+* (do_mods.modify_dates)[https://github.com/justinhchae/categorical/blob/main/do_mods/modify_dates.py]: Function that processes date columns as datetime
 
 ## Data
 
