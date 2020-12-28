@@ -34,6 +34,11 @@ A focus of this repository is on categorical data types.
 
 Retrieved Date, Item Name, Retrieved, Condition, Sector
 
+| Retrieved Date  | Item Name | Retrieved | Condition | Sector |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+
 * [analysis.zip](https://github.com/justinhchae/categorical/blob/main/data/analysis.zip): A compressed version of source.csv after processing.
 
 * [analysis.pickle](https://github.com/justinhchae/categorical/blob/main/data/analysis.pickle): A serialized version of source.csv after processing. 
