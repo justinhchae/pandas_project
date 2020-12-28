@@ -9,11 +9,22 @@ class ModifyDates():
         self.today = pd.Timestamp.now()
 
     def get_date_cols(self, df):
+        """
+        :param df: a dataframe
+        :args: helper, regex for 'date'
+        :return: a list of strings (cols containing date)
+        """
         date_pattern = r'_date'
         date_cols = [c for c in df.columns if re.search(date_pattern, c)]
         return date_cols
 
     def parse_dates(self, df, cols=None):
+        """
+        :params df: a dataframe
+        :params cols: optional, a list of strings (col names)
+        :args: if cols is not given, date cols are derived from cols containing 'date'
+        :returns: dataframe with datetime columns
+        """
 
         if cols is None:
             cols = self.get_date_cols(df)
