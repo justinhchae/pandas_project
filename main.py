@@ -23,7 +23,10 @@ util = MakeData()
 print('--- From Source ---')
 df = reader.to_df('source.zip')
 
-cleaner.stage_one(df, 'item_name')
+df = cleaner.stage_one(df, ['item_name', 'condition', 'status'])
+
+print(df.head())
+
 # df = categorize.make_categories(df=df,
 #                                 cols=['item_name'
 #                                     , 'condition'

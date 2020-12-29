@@ -75,6 +75,7 @@ class MakeData():
                 # https://stackoverflow.com/questions/6824681/get-a-random-boolean-in-python
                 df['Retrieved'] = df.apply(lambda x: bool(random.getrandbits(1)), axis=1)
 
+
                 df['Sector'] = df.apply(lambda x: np.random.choice(sectors, 1, replace=True)[0], axis=1)
 
                 df['Condition'] = df.apply(lambda x: np.random.choice(conditions, 1, replace=True)[0], axis=1)

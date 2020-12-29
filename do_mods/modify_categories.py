@@ -52,7 +52,7 @@ class ModifyCategories():
                     print('Skipping', key, 'Reason: Not a Column in DF')
                     print()
 
-        print(df.dtypes)
+        # print(df.dtypes)
 
         return df
 

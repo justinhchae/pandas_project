@@ -15,5 +15,5 @@ class ModifyColumns():
         df.columns = df.columns.str.replace(' ', '_')
         df.columns = df.columns.str.replace('-', '_')
 
-        print(df.columns)
+        print('--------- New Columns are', list(df.columns))
         return df
