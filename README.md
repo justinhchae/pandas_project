@@ -2,6 +2,10 @@
 
 A series of object-oriented packages built with PyCharm around the Pandas library.
 
+THIS projects is archived and now lives on as a python package called pd-helper. 
+
+Go to [https://github.com/justinhchae/pd-helper](https://github.com/justinhchae/pd-helper).
+
 ## Background
 
 This project represents a collection of my most-used Pandas-oriented methods and transformations to wrangle and analyze data. 
