@@ -17,15 +17,15 @@ util = MakeData()
 
 # make a random dataframe of trash collection data
 # print('--- Generated Source ---')
-# util.make_df()
+util.make_df()
 
 # read source data from a zipped csv
-print('--- From Source ---')
-df = reader.to_df('source.zip')
-
-df = cleaner.stage_one(df, ['item_name', 'condition', 'status'])
-
-print(df.head())
+# print('--- From Source ---')
+# df = reader.to_df('source.zip')
+#
+# df = cleaner.stage_one(df, ['item_name', 'condition', 'status'])
+#
+# print(df.head())
 
 # df = categorize.make_categories(df=df,
 #                                 cols=['item_name'

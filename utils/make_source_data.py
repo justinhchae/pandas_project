@@ -30,7 +30,7 @@ class MakeData():
         end_u = end.value//10**9
         return pd.DatetimeIndex((10**9*np.random.randint(start_u, end_u, n, dtype=np.int64)).view('M8[ns]'))
 
-    def make_df(self, make_default=True, perfect=False, size=5000, col_names=None, values=None):
+    def make_df(self, make_default=True, perfect=False, size=1000000, col_names=None, values=None):
         """
         :param make_default: make a Pandas Dataframe of imperfect data types
         :param perfect: no purposeful mistakes in data
